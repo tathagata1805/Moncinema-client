@@ -1,0 +1,39 @@
+.casting{
+    display:flex;
+    flex-wrap: wrap;
+    margin: 1em;
+    gap:1em;
+    justify-content: flex-start;
+    &Infos{
+        box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
+        border: 1px solid rgba(var(--lightGrey), 1);
+        border-radius: 10px;
+        background-color: #fff;
+        width: 160px;
+        height: 100%;
+        img{
+            width: 100%;
+            min-height: 230px;
+            border-radius: 10px 10px 0px 0px;
+            object-fit: cover;
+        }
+        h4{
+            padding: 0 10px;
+            margin: 4px 0px;
+            font-size: 0.8em;
+            text-overflow: ellipsis;
+        }
+        p{
+            padding: 0 10px;
+            margin-top: 4px;
+            font-size: 0.7rem;
+            margin-bottom: 5px;
+        }
+    }
+}
+
+@media screen and (max-width: 360px) { 
+    .castingInfos{
+        width: 100%;
+    }
+}

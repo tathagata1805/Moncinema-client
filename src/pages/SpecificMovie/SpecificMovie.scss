@@ -1,0 +1,39 @@
+#movieInfos{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    &Wrapper{
+        display:flex;
+        &Left{
+            width: 70%;
+        }
+        &Right{
+            width:30%;
+        }
+    }
+}
+
+.movieTitle{
+    margin-left:1em;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 970px) {
+    #movieInfos{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        &Wrapper{
+            display:flex;
+            flex-direction: column-reverse;
+            &Left{
+                width: 100%;
+            }
+            &Right{
+                display:flex;
+                flex-direction: row;
+                width:100%;
+            }
+        }
+    }
+}

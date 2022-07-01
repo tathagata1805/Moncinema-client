@@ -1,0 +1,133 @@
+.comments{
+    margin: 1em;
+    display:flex;
+    
+    flex-direction: column;
+    textarea{
+        width: 350px;
+        margin-bottom: 1em;
+        border-radius: 5px;
+        font-family: inherit;
+        outline: none;
+    }
+    button{
+        border-radius: 10px;
+        color: #fff;
+        cursor: pointer;
+        font-weight: 700;
+        padding: 15px 30px;
+        text-transform: uppercase;
+        transition: .3s;
+        width: 200px;
+        background-color: var(--main-color);
+        &:hover{
+            opacity: 0.7;
+        }
+    }
+    &Section{
+        display:flex;
+        margin:1em;
+        border-bottom: 1px solid #ededed;
+        padding-bottom: 1.875rem;
+        margin-bottom: 1.875rem;
+        img{
+            width:100px;
+            height: 100px;
+            object-fit: cover;
+            margin-right: 10px;
+        }
+        &Infos{
+            display:flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            svg{
+                width:15px;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+            h5{
+                margin:0;
+                color:#b3b3b3;
+                font-weight: 400;
+            }
+            p{
+                font-weight: 400;
+                font-size:11px;
+            }
+        }
+        &Nickname{
+            margin:0;
+            font-size: 15px;
+        }
+        &Comment{
+            font-size: 15px;
+            max-width: 300px;
+            display: -webkit-box;
+            margin-top:1.5em;
+            min-width: 500px;
+            word-wrap: break-word;
+            font-size: 12px;
+            -webkit-box-orient: vertical;
+        }
+    }
+}
+
+.title{
+    color: var(--light-theme-title-color);
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+
+.confirmation-message{
+    line-height: 1.5;
+    color: #67727e;
+    margin-bottom: 1em;
+    margin-top:1em;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: space-around;
+
+    button{
+      color: white;
+      text-transform: uppercase;
+      font-weight: 700;
+      padding: 15px 20px;
+      border: none;
+      border-radius: 10px;
+      transition: 0.3s;
+      cursor: pointer;
+
+      &:hover{
+        opacity: 0.7;
+      }
+    }
+    
+    .cancel-btn{
+      background: #67727e;
+    }
+
+    .delete-btn{
+      background: #ed6468;
+      color: white;
+    }
+}
+
+
+@media screen and (max-width: 670px) {
+
+    .comments{
+        
+        textarea{
+            width: 100%;
+            margin-bottom: 1em;
+        }
+        &SectionComment{
+            min-width: 100%;
+        }
+    }
+
+}

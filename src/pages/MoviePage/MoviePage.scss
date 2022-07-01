@@ -1,0 +1,48 @@
+:root {
+  --main-color: #1976d2;
+  --input-background: #f5f5f5;
+  --root-background: #f5f5f5;
+  --dark-theme: #212121;
+  --light-theme-sidebar-text-color: #77879e;
+  --light-theme-logo-color: #334067;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+#movie {
+  display: flex;
+  
+
+}
+
+#movie-area {
+  width: 60%;
+  position: relative;
+  padding: 1em;
+}
+
+@media screen and (max-width: 767px) {
+  #movie {
+    flex-direction: column;
+    &-area{
+      width: 100%;
+    }
+  }
+  .search{
+    width: 100% !important;
+    margin-bottom: 1em;
+  }
+
+}
