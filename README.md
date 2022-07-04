@@ -27,7 +27,7 @@ Password :- Moncinema@2022
 1. Clone this repository
 
    ```sh
-   git clone https://github.com/tathagata1805/Moncinema
+   git clone https://github.com/tathagata1805/Moncinema-client
    ```
 
 2. Install NPM packages
