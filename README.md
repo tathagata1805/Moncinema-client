@@ -22,7 +22,7 @@ MERN stack Entertainment application
 1. Clone this repository
 
    ```sh
-   git clone https://github.com/tathagata1805/MovieWala
+   git clone https://github.com/tathagata1805/Moncinema
    ```
 
 2. Install NPM packages
