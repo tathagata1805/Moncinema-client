@@ -1,6 +1,6 @@
 # MONCINEMA
 
-## Checkout the Live website at:- https://moviewala-client.netlify.app/
+## Checkout the Live website at:- https://moncinema-client.netlify.app/
 
 MERN stack Entertainment application <br/>
 Deployed on **Netlify** and **Heroku**
