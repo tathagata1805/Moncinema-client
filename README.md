@@ -1,4 +1,5 @@
-# MOVIEWALA
+# MONCINEMA
+
 ## Checkout the Live website at:- https://moviewala-client.netlify.app/
 
 MERN stack Entertainment application <br/>
@@ -6,8 +7,8 @@ Deployed on **Netlify** and **Heroku**
 
 ## LOGIN CREDENTIALS FOR DEMO PURPOSES:-
 
-Email :- moviewala@gmail.com <br/>
-Password :- Moviewala@2022
+Email :- moncinema@gmail.com <br/>
+Password :- Moncinema@2022
 
 ## Dependencies
 
